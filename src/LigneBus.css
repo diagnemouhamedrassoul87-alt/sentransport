@@ -16,8 +16,12 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
+.ligne-bus-active {
+  border-left: 4px solid #e67e22;
+  background-color: #fef9f3;
+}
+
 .ligne-numero {
-  background-color: #0a6e31;
   color: white;
   font-weight: bold;
   font-size: 1.2rem;
@@ -29,6 +33,7 @@
   justify-content: center;
   margin-right: 16px;
   flex-shrink: 0;
+  transition: background-color 0.2s;
 }
 
 .ligne-info {
